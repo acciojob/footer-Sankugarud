@@ -23,7 +23,7 @@ img{
     padding:10px;
 }
 .media-icons{
-	display: flex;
+	display: block;
    align-items: center;
     gap: 5px;
     width: 100px;    
