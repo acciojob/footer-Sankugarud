@@ -1,1 +1,72 @@
 /* your code here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.content{
+    width: 100%;
+    height: 75%;
+    /* border: 1px solid white; */
+    color: whitesmoke;
+    background-color: black;
+}
+img{
+    width: 15px;
+    border-radius: 100%;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     /* border: 1px solid white; */
+    padding:10px;
+}
+.media-icons{
+    gap: 5px;
+    width: 100px;
+    display: flex;
+   align-items: center;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(154,154,154);
+}
+.head{
+    font-size: 10px;
+    color: whitesmoke;
+    padding-bottom: 1px;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            width: fit-content;
+    position: relative;
+    
+}
+.link-boxes{
+    display: flex;
+    font-size: 7px;
+    justify-content: space-between;
+    text-align: start;
+    padding: 10px;
+    
+}
+p{
+    color: whitesmoke;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: whitesmoke;
+}
+
+.bottom-details{
+    display: flex;
+    justify-content: space-between;
+    font-size: 7px;
+    background-color: rgb(44,48,58);
+    padding: 10px;
+    color: whitesmoke;
+}
